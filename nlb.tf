@@ -18,7 +18,7 @@ module "nlb" {
       name_prefix      = "dd"
       backend_protocol = "TCP"
       backend_port     = 80
-      target_type      = "ip"
+      target_type      = "instance"
     }
   ]
 
